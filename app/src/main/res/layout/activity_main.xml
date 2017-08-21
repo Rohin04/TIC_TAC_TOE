@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    tools:context="com.example.rohin.tic_tac_toe.MainActivity">
+
+    <TableRow
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" >
+
+        <Button
+            android:id="@+id/bt1"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:onClick="btnclick"
+            android:text="" />
+
+        <Button
+            android:id="@+id/bt2"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:onClick="btnclick"
+            android:text="" />
+
+        <Button
+            android:id="@+id/bt3"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:onClick="btnclick"
+            android:text="" />
+    </TableRow>
+
+    <TableRow
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" >
+
+        <Button
+            android:id="@+id/bt4"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:onClick="btnclick"
+            android:text= ""/>
+
+        <Button
+            android:id="@+id/bt5"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:onClick="btnclick"
+            android:text= ""/>
+
+        <Button
+            android:id="@+id/bt6"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:onClick="btnclick"
+            android:text= ""/>
+    </TableRow>
+
+    <TableRow
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" >
+
+        <Button
+            android:id="@+id/bt7"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:onClick="btnclick"
+            android:text= ""/>
+
+        <Button
+            android:id="@+id/bt8"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:onClick="btnclick"
+            android:text= ""/>
+
+        <Button
+            android:id="@+id/bt9"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:onClick="btnclick"
+            android:text= ""/>
+    </TableRow>
+    <Button
+        android:text="restart"
+        android:onClick="restartbtn"
+        />
+</TableLayout>
